@@ -1,0 +1,25 @@
+I want to code an app that creates and displays pokemon-inspired collectible cards that should help users learn new concepts (in this case, learn mandarin chinese). The cards are inspired from the cards from Pokemon TCG. Each card represents a certain word or expression, and it has associated a rarity, an element from the chinese zodiac (which changes the look of the card), as well as several stats (most of which represent usage examples of the word or expression).
+A big part of the project will be the generating and exporting of such cards, but first, I want to build a simpler app that just displays the cards that I already have generated. All of these cards are saved in a folder in this repository.
+
+Please code the project in the lastest version of React with TypeScript and Vite.
+
+First, here are some general guidelines, that you should ALWAYS FOLLOW when coding:
+
+1. Make the code as modular as possible, and try to reuse as many of the already-implemented functions as possible when writing new code!
+2. Make the code as succint as possible - do not add unnecessary error handling, and do not write redundant checks or functions.
+3. Make it clear - when something might be difficult ot understand, add a comment about it, but do not add too many comments
+
+4. Use icons instead of text wherever possible (such as for buttons). You can use an icon library like Lucide to achieve this.
+
+Now, let's implement the following features:
+
+I want to have a simple, minimalistic, dark themed dashboard with two options: Add New Cards and View Collection.
+For now, when the Add New Cards option is selected, it redirects to a "Not implemented yet page!", which has a button that allows the user to return to where he came from.
+
+The View Collection option will open the Collection page, where the user's current collection of cards is displayed in a grid. Each card has tags with its rarity, its HSK level and its element, so you can filter with them, or you can search for the card's name (in either hanzi or pinyin). Also, add a button to start some cards, and add starred cards as a filter option.
+
+If a card is clicked, it will be maximised. This interface is the most important! Make the card look like the card is really 3D, and when the user moves the mouse on the screen, the card is tilts towards the mouse pointer. When the user clicks again, the card has a flipping animation, after which the back of the card is displayed. All cards will have the same back (which is an image that you have in the project already).
+In the maximised card view, you should also be able to navigate between the cards in your collection with the arrow keys.
+
+Please, implement all of this!
+
